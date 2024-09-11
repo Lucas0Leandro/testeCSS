@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <h1>
+      Produtos
+    </h1>
+
+    <header>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Produtos.html">Produtos</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <label for="productname">Nome do Produto</label>
+      <input type="text" id="productname" name="productname">
+      <br>
+      <label for="amount">Quantidade</label>
+      <input type="text" id="amount" name="amount">
+      <br>
+      <label for="unitprice">Preço Unitário</label>
+      <input type="text" id="unitprice" name="unitprice" disabled="">
+      <br>
+      <input type="button" name="add_product" value="Adicionar">
+    </section>
+
+    <section>
+      <section>
+
+      </section>
+      <table>
+        <tbody>
+          <tr>
+            <th>Cód</th>
+            <th>Prod</th>
+            <th>Qtd</th>
+            <th>Preço</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>Arroz</td>
+            <td>2</td>
+            <td>R$20.00</td>
+            <td><input type="button" name="delete_1" value="Excluir"></td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Feijão</td>
+            <td>1</td>
+            <td>R$9.00</td>
+            <td><input type="button" name="delete_1" value="Excluir"></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+  </body>
+
+</html>

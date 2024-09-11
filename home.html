@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de ponto de venda (PDV)</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>
+      Lojinha do Seu Zé
+    </h1>
+    <header>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="produtos.html">Products</a></li>
+      </ul>
+    </header>
+    <section>
+      <label for="Produtos">Produtos: </label>
+      <select name="" id="">
+        <option value="Cafe">Cafe</option>
+        <option value="Leite">Leite</option>
+        <option value="Feijão">Feijão</option>
+        <option value="Arroz">Arroz</option>
+      </select>
+      <form action="">
+        <label for="quantidade">Quantidade:</label>
+        <input type="text" id="quantidade" name="quantidade">
+        <br>
+        <label for="valordoimposto">Taxa:</label>
+        <input type="text" id="valordoimposto" name="valordoimposto" disabled="">
+        <br>
+        <label for="Unit Price">Valor Unitario: </label>
+        <input type="text" id="Unit Price" name="Unit Price" disabled="">
+        <br>
+        <input type="submit" value="Adicionar Produto">
+        <br>
+        <table>
+          <tbody>
+            <tr>
+              <th>Produto</th>
+              <th>Preço Unitario</th>
+              <th>QTD</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td> Arroz </td>
+              <td>R$20.00</td>
+              <td>2</td>
+              <td>R$40.00</td>
+              <td> <input type="button" name="delete_1" value="Excluir"> </td>
+            </tr>
+            <tr>
+              <td> Bens </td>
+              <td>R$9.00</td>
+              <td>1</td>
+              <td>R$9.00</td>
+              <td> <input type="button" name="delete_2" value="Excluir"> </td>
+            </tr>
+          </tbody>
+        </table>
+        <label for="taxa">Taxa:</label>
+        <input type="text" id="taxa" name="Taxa" value="R$3.00" disabled="">
+        <br>
+        <label for="Total">Total:</label>
+        <input type="text" id="total" value="R$49.00" disabled="">
+        <br>
+        <input type="button" name="cancel" value="Cancelar">
+        <input type="button" name="finish" value="Finalizar">
+      </form>
+
+    </section>
+
+
+  </body>
+
+</html>
